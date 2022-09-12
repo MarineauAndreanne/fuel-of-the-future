@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#latest-collection {
+  @apply relative lg:justify-center lg:flex lg:flex-col w-full py-14;
+}
