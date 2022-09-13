@@ -25,7 +25,7 @@ export default function Header({ shop }) {
       >
         <Link to="/" className="flex gap-2 font-bold font-mono uppercase">
           {shop.name} / /{" "}
-          <span className="hidden lg:inline">Shoes for Everyone.</span>
+          <span className="hidden lg:inline">Made for Everyone.</span>
         </Link>
 
         <button

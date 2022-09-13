@@ -29,36 +29,9 @@ function HomepageContent() {
 
   return (
     <>
-      <section
-        className={
-          "relative justify-end flex flex-col w-full top-[-2rem] h-screen"
-        }
-      >
-        <div className="relative">
-          <img
-            src={
-              "https://images.pexels.com/photos/1250643/pexels-photo-1250643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-            }
-            alt={"alt text"}
-            className="w-full h-full object-cover opacity-75"
-          />
-          <span className="absolute bottom-[40rem] left-[2rem] lg:bottom-[10rem] lg:left-[5rem] lg:text-white">
-            <h1 className="text-2xl lg:text-5xl mb-3">With you Everywhere.</h1>
-            <a
-              className="text-l lg:text-2xl cursor-pointer text-zinc-600 pl-1 hover:text-white"
-              href="#latest-collection"
-            >
-              View Our Latest Collections →
-            </a>
-          </span>
-        </div>
-      </section>
-
       <GenderCollections genderCollections={genderCollections} />
 
-      <section id="latest-collection">
-        <FeaturedCollections featuredCollections={featuredCollections} />
-      </section>
+      <FeaturedCollections featuredCollections={featuredCollections} />
     </>
   )
 }
